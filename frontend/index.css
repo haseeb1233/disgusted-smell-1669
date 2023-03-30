@@ -5,28 +5,36 @@
     width: 95%;
     height: 90px;
     margin-top: 20px;
+    background-color:#fff;
+    position: sticky;
+    top: 0px;
 }
 #navbar_right{
     display: flex;
     width: 40%;
-    border: 1px solid red;
     justify-content: space-between;
     font-family:"Mr Eaves XL Modern", sans-serif;
 }
+#main_navbar a{
+    width: 10%;
+    height: 20px;
+}
+#main_navbar a button:hover{
+  cursor: pointer;
+}
 
-#main_navbar button{
+#main_navbar a button{
     background-color: #fff;
     height: 40px;
-    width: 7%;
+    width: 90%;
     font-family:"Mr Eaves XL Modern", sans-serif;
     font-size: 18.72px;
     border-radius: 10px;
-    margin-top: 15px;
+    margin-top: 8px;
 }
 #navbar_left{
     width: 30%;
     height: 90px;
-    border: solid red ;
     margin-left: 100px;
 }
 #navbar_left a{
@@ -37,6 +45,7 @@
     color: #000;
     display: flex;
     height: 70px;
+    width: 100%;
 }
 #navbar_left a p{
     height: 50px;
@@ -45,7 +54,7 @@
 
 }
 #navbar_left img{
-    width: 15%;
+    width: 20%;
 }
 
 /* sign up & video part */
@@ -54,7 +63,6 @@
     width: 100%;
     margin: auto;
     height: 455px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 
@@ -63,7 +71,6 @@
 #signup{
     width: 40%;
     height: 280px;
-    border: 1px solid black;
     margin-left: 135px;
     margin-top: 40px;
 }
@@ -185,7 +192,6 @@
 }
 #fourthcontainer div{
     width: 100%;
-    border: 1px solid #44d07b;
 }
 
 #fourthcontainer div h5{
@@ -216,12 +222,11 @@
     display: flex;
     width: 70%;
     margin: auto;
-    border: #000 1px solid;
 }
 
 #sixthcontainerimg{
     width: 50%;
-    border: 1px solid #44d07b;
+    
 }
 #sixthcontainerimg img{
     width: 100%;
@@ -230,7 +235,6 @@
 
 .sixthcontainertext {
     width: 90%;
-    border: 1px solid red;
     display: flex;
     height: 110px;
     margin-left: 25px;
@@ -238,7 +242,6 @@
 }
 
 .sixthcontainertext div:nth-child(1){
-    border: 1px solid blue;
     width: 10%;
 }
 .sixthcontainertext div:nth-child(1) img{
@@ -264,6 +267,98 @@
     position: relative;
     top: -80px;
 }
+
+/* seventhcontainer */
+#seventhcontainer{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+#seventhcontainer h2{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: #262a3b;
+    font-size: 2.54em;
+    line-height: 1.1em;
+    font-weight: 800;
+
+}
+#seventhcontainer img {
+    width: 100%;
+}
+
+/* footer */
+
+#mainfooter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15%;
+    background-color:  #262a3b;
+ 
+}
+#mainfooter div:nth-child(1){
+    width: 10%;
+    position: relative;
+    top: 50px;
+    left: -100px;
+}
+#mainfooter div:nth-child(1) img{
+    width: 80%;
+}
+
+.footerlist{
+    width: 15%;
+}
+
+.footerlist h4{
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.footerlist p{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+#lastfooter{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid #fff;
+    position: relative;
+    top: 40px;
+    padding-top: 50px;
+}
+
+#lastfooterstore{
+    width: 40%;
+}
+#lastfooterstore img{
+    width: 40%;
+    margin-left: 40px;
+}
+#lastfootermain{
+    width: 40%;
+}
+#lastfootermain img{
+    width: 12%;
+    margin-left: 15px;
+}
+#lastfootermain p{
+    color: #fff;
+    margin-left: 15px;
+}
+#lastfootermain div:nth-child(3){
+    margin-top: 80px;
+}
+
+
 
 
 
