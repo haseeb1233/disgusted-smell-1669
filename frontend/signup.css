@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+}
+#navbar_left{
+    width: 100%;
+    height: 90px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 50px;
+    background-image: url(https://cdn1.cronometer.com/brand2/assets/DotPatternLarge.svg)
+}
+#navbar_left a{
+    text-decoration: none;
+    font-family:"Mr Eaves XL Modern", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+    display: flex;
+    height: 70px;
+}
+#navbar_left a p{
+    height: 50px;
+    position: relative;
+    bottom: 5px;
+
+}
+#navbar_left img{
+    width: 8%;
+}
+
+/* titlesignup */
+#titlesignup{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Work Sans',sans-serif; 
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #262a3b;
+}
+
+/* email_password */
+#email_password{
+    width: 40%;
+    height: 170px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin: auto;
+}
+#email_password label{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 30px;
+    color: #262a3b;
+}
+#signupemail{
+    position: relative;
+    left: 99px;
+}
+#signuppassword{
+    position: relative;
+    left: 70px;
+}
+
+#email_password input{
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+text-align: left;
+background: #fafbff;
+border: 1px solid #777986;
+border-radius: 4px;
+color: #262a3b;
+padding: 8px 16px;
+}
+
+/* profile_details */
+#profile_details{
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin: auto;
+}
+#profile_details h4{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 1.1px;
+    color: #262a3b;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#profile_details label{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 30px;
+}
+/* radiobutton */
+#profile_details input{
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+text-align: left;
+background: #fafbff;
+border: 1px solid #777986;
+border-radius: 4px;
+color: #262a3b;
+padding: 8px 16px;   
+}
+#profile_details select{
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+text-align: left;
+background: #fafbff;
+border: 1px solid #777986;
+border-radius: 4px;
+color: #262a3b;
+padding: 8px 16px;   
+}
+#gender{
+    position: relative;
+    left: 122px;
+}
+#birthday{
+    position: relative;
+    left: 80px;
+}
+#height{
+    position: relative;
+    left: 97px;
+}
+#weight{
+    position: relative;
+    left: 95px;
+    margin-bottom: 25px;
+}
+span{
+    position: relative;
+    left: 105px;
+}
+/* signupbtn */
+#signupbtn{
+        width: 200px;
+        background-color: #005c5c;
+        color: #fff;
+        padding: 9px 40px;
+    border-radius: 10px;
+    border: solid 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: center;
+    margin-left: 660px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    }
+
+    #signupbtn:hover{
+        cursor: pointer;
+    }
+    
+
+
+
