@@ -8,7 +8,10 @@ const userSchema=mongoose.Schema({
     birthday:Date,
     height:Number,
     weight:Number,
+    age:Number,
     bmr:Number,
+},{
+    versionKey:false,
 })
 
 const UserModel=mongoose.model("user",userSchema)
