@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy & Healthy</title>
     <link rel="icon" type="image/png" href="../logo/H&H.png"/>
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="diary.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   
@@ -30,7 +30,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="diary.html">
+                            <a href="dashboard.html">
                                 <i class="fa fa-list-alt" ></i>
                                 <p>Diary</p>
                             </a>
@@ -116,14 +116,9 @@
             </div>
 
              <!-- dashboarddiv -->
-        <div id="dashboard_title">
-            <h2>Your Dashboard</h2>
-        </div>
+      
         <div id="dashboard_items">
-            <div>
-                <h3>Quick Add to Diary</h3>
-            </div>
-            <div class="dashboard_icons">
+            <div id="foodcontainer" class="dashboard_icons">
                 <img src="https://cdn1.cronometer.com/brand/svg/add-food-icon.svg" alt="">
                 <span>FOOD</span>
             </div>
@@ -140,9 +135,40 @@
                 <span>note</span>
             </div>
         </div>
- 
+      
+         <!-- fooditems -->
+
+       <div id="foodmaindiv">
+        <div id="fooditemscontainer">
+            <div>
+             <h3>Add Food to Diary</h3>
+             <i class="fa fa-close" style="font-size:28px"></i>
+            </div>
+             <div id="searchbar">
+                <label for="" id="search_label_tag"
+                ><input type="text" placeholder="Search all foods &amp; recipes..." id="top_search_inp" />
+                <i id="top_search_btn" class="fa fa-search"></i
+              ></label>
+            </div>
+            <div id="listfooditems">
+                <div>All</div>
+                <div>Favorites</div>
+                <div>Common Foods</div>
+                <div>Supplements</div>
+                <div>Brands</div>
+                <div>Restaurants</div>
+                <div>Custom</div>
+            </div>
+         </div>
+       </div>
+     
+   
+
+        </div>
+
+       
     </div>
   
 </body>
-<script src="dashboard.js"></script>
+<script src="diary.js"></script>
 </html>
