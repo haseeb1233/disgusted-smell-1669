@@ -52,14 +52,14 @@ userRouter.post("/login",async(req,res) =>{
       if(data.length){
           bcrypt.compare(password, data[0].password).then((result) => {
               if(result){
-                  res.status(200).send({"msg":"sucessfully logged in","token":jwt.sign({ Userid: data[0]._id }, 'football')})
+                  res.status(200).send({"msg":"sucessfully logged in","token":jwt.sign({ Userid: data[0]._id }, 'diary'),"userid":`${data[0]._id}`,"bmr":`${data[0].bmr}`})
               }else{
                   res.status(200).send({"msg":"login failed"})
               }
           })
 
       }else{
-          res.status(200).send({"msg":"enter correct email"})
+          res.status(400).send({"msg":"enter correct email"})
       }
       
 
